@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 200;
     /*background-color: rgb(173, 216, 230);*/
     background-color: rgb(54, 69, 79);
     border-bottom-width: 1px;
@@ -91,6 +91,10 @@
 .checkout-container:hover .tooltip,
 .contact-info:hover .contact-info-button {
     opacity: 1;
+}
+
+.checkout-container {
+    position: relative;
 }
 
 .search-bar {
@@ -190,7 +194,7 @@
 .cart-quantity {
     position: absolute;
     font-size: 22px;
-    bottom: 57px;
-    right: 245px;;
+    bottom: 18px;
+    right: 15px;;
     color: rgb(255, 153, 0);
 }

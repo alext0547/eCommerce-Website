@@ -7,8 +7,7 @@ p {
 body {
     font-family: Roboto, Arial;
     margin: 0;
-    padding-top: 80px;
-    padding-left: 96px;
-    height: 2000px;
-    padding-right: 24px;
+    padding: 0;
+    background-color: rgb(230, 240, 248);
+    height: 2200px;
 }

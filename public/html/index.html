@@ -7,7 +7,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/footer.css">
     </head>
     <body>
         <header class="header">
@@ -66,8 +69,10 @@
                 </div>
             </div>
         </header>
-
-        <main>
+        <main class="homepage-main">
+            <div class="homepage-image-container">
+                <img src="../images/header/homepage-ecommerce.png" class="homepage-image">
+            </div>
             <section class="homepage-product-grid">
                 <div class="product-preview">
                     <div class="homepage-product-row">
@@ -76,7 +81,25 @@
                             src="../images/products/clear-glass-bottles.webp">
                         </a>
                     </div>
-                    <div class="homepage-product-info-grid">
+                    <div class="homepage-product-info">
+                        <a href="product-details.html" class="homepage-link">
+                            <div class="homepage-product-title">Clear Glass Bottles</div>
+                            <div class="homepage-sale-sign">Limited time deal</div>
+                            <div class="homepage-product-price">
+                                <span class="homepage-after-discount-price">$18.49</span>
+                                <span class="homepage-before-discount-price">Original: $19.99</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="product-preview">
+                    <div class="homepage-product-row">
+                        <a href="product-details.html">
+                            <img class="homepage-product-image" 
+                            src="../images/products/clear-glass-bottles.webp">
+                        </a>
+                    </div>
+                    <div class="homepage-product-info">
                         <a href="product-details.html" class="homepage-link">
                             <div class="homepage-product-title">Clear Glass Bottles</div>
                             <div class="homepage-sale-sign">Limited time deal</div>
